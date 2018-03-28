@@ -3,6 +3,7 @@ package com.supermarket
 class BootStrap {
 
     def init = { servletContext ->
+	
 	def Andy = new Manager(
 
 		fullName:'Andy Williams',
@@ -76,6 +77,13 @@ class BootStrap {
 
 	Davy.addToTeamLeaders(Barry)
 	Andy.addToEmployees(Craig)
+	Craig.addToShifts(shiftMorning)
+	Barry.addToEmployees(Craig)
+
+	Task1.addToShifts(shiftMorning)
+	TeamA.addToEmployees(Craig)
+	TeamA.addToTasks(Task1)
+	TeamA.addToShifts(shiftMorning)
 			
 		
 		

@@ -10,9 +10,15 @@ class Employee {
 	Date dateEmployed
 	String taxCode
 	String contract
-	Shift shift
 	Manager manager
 	TeamLeader teamLeader
+
+static hasMany=[shifts:Shift, tasks:Task, teams:Team]
+static belongsTo=[Team]
+
+String toString(){
+	return fullName
+}
 
     static constraints = {
 

@@ -6,6 +6,9 @@ class Team {
 	int numberOfEmployees
 	String sectionName
 	String description
+
+static hasMany=[employees:Employee, tasks:Task, shifts:Shift]
+
 String toString(){
 	return teamName
 }

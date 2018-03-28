@@ -11,6 +11,7 @@ class Manager {
 
 static hasMany=[teamLeaders:TeamLeader, employees:Employee]
 
+
 String toString(){
 return fullName
 }

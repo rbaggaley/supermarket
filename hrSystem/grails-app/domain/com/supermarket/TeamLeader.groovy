@@ -12,6 +12,8 @@ class TeamLeader {
 	Manager manager
 	Team team
 
+static hasMany=[employees:Employee]
+
 String toString(){
 	return fullName
 }
