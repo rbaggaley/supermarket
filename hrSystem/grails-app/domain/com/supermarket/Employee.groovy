@@ -16,6 +16,11 @@ class Employee {
 static hasMany=[shifts:Shift, tasks:Task, teams:Team]
 static belongsTo=[Team]
 
+/*String toString(){
+  	result = manager + teamLeader	
+	return result
+}*/
+
 String toString(){
 	return fullName
 }

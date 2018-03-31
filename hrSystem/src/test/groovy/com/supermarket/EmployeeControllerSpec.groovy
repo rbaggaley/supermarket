@@ -11,8 +11,25 @@ class EmployeeControllerSpec extends Specification implements ControllerUnitTest
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
+    void mergeData() {
+	when: "A Employee has manager and teamLeader"
+	def Craig = new Employee(
+
+		fullName:'Craig Hall',
+		dateOfBirth:new Date ('09/09/2018'),
+		residence:'doncaster',
+		hourlyRate:6,
+		employeeID:'CH123',
+		dateEmployed:new Date('09/09/2017'),
+		taxCode:'TX1',
+		contract:'full-time',
+		shift: shiftMorning,
+		manager: Andy,
+		teamLeader: Barry).save()
+		
+	then: "the toString method will merge them"
+	Craig.toString()=='Dave,Rob'
+        
             true == false
     }
 }
