@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Costco Human Resources System Manager| Home Page</title>
+    <title>Costco Human Resources System Team Leader| Home Page</title>
 </head>
 <body>
     
@@ -48,14 +48,6 @@
 		<p></p>
 			<button type="button" class="btn btn-success">
 				<g:link controller="shift" action="create">List Shifts</g:link>
-			</button>
-		</div>
-		<p></p>
-			<div class="first">
-			<h3>Seach Employees</h3>
-		<p></p>
-			<button type="button" class="btn btn-success">
-				<g:link controller="employee" action="advSearch">List Teams</g:link>
 			</button>
 		</div>
 

@@ -6,7 +6,7 @@ class TeamLeaderController {
 def login(){
 
 }
-def validate(){
+def validateTeamLeader(){
 	def user = TeamLeader.findByUserName(params.userName)
 	if (user && user.password==params.password){
 		session.user=user
@@ -18,7 +18,7 @@ def validate(){
 		render view:'login'
 	}
 }
-def logout={
+def logoutTeamLeader={
 	session.user=null
 	redirect(url:'/')
 }

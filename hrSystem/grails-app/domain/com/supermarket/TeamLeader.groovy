@@ -5,6 +5,7 @@ class TeamLeader {
 	String fullName
 	String department
 	String employeeID
+	String userName
 	String sectionName
 	String officePhone
 	String leaderEmail
@@ -23,6 +24,7 @@ String toString(){
 	fullName blank:false, nullable:false
 	department blank:false, nullable:false
 	employeeID blank:false, nullable:false
+	userName blank:false, nullable:false
 	sectionName blank:false, nullable:false
 	officePhone blank:false, nullable:false
 	leaderEmail blank:false, nullable:false, email:true

@@ -50,6 +50,12 @@
 				<g:link controller="shift" action="create">List Shifts</g:link>
 			</button>
 		</div>
+		<p></p>
+			<button type="button" class="btn btn-success">
+				<g:link controller="task" action="advSearch">Search Tasks</g:link>
+			</button>
+		</div>
+
 
 		
 	</div>

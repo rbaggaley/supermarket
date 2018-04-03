@@ -9,7 +9,8 @@
     <div id="content" role="main">
         <section class="row colset-2-its">
 		<div style="background-colour: red; width: 100%">		            
-			<h1>HUMAN RESOURCES</h1>
+							
+			<h1>COSTCO HUMAN RESOURCES</h1>
 		</div>
 	
         </section>

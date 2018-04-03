@@ -14,9 +14,11 @@
     <g:layoutHead/>
 </head>
 <body>
-	<div>
+	<div style="align:center;">
+		<asset:image src="images.jpeg"/>		
 		<h1>COSTCO</h1>
-<g:loginToggle/>	
+<g:loginToggle/>
+<g:loginTeamLeaderToggle/>	
 	</div>
 	
     <g:layoutBody/>
